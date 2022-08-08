@@ -1,0 +1,85 @@
+.login-page {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 40px;
+  background-image: url("../../images/SignUp.png");
+  align-items: center;
+  justify-content: space-around;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 77px;
+  width: fit-content;
+  height: 60%;
+
+  background: #ffffff;
+  /* 1 */
+
+  box-shadow: 0px 8px 50px rgba(150, 140, 169, 0.1);
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.title-sign-in {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 130%;
+}
+
+.email-password {
+  margin-top: 10px;
+  padding-bottom: 10px;
+ 
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* font color/gray_1 */
+  color: #4d4d4d;
+}
+.input-email-password {
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 10%;
+  padding-left: 5px;
+  background: #ffffff;
+  /* boder */
+
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+
+}
+
+.btn-sign-in {
+ 
+  padding: 17px 22px;
+  gap: 10px;
+
+  width: 450px;
+  height: 55px;
+
+  background: #c18ff5;
+  box-shadow: 0px 8px 25px rgba(114, 56, 207, 0.15);
+  border-radius: 10px;
+}

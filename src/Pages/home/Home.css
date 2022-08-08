@@ -1,0 +1,53 @@
+.home {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  border-radius: 40px;
+  margin: 0%;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+}
+
+#post-page {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7%;
+}
+
+.body {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  height: 93%;
+}
+
+.profile {
+  height: 45%;
+}
+
+.post {
+  height: 10%;
+}
+
+.upload {
+  height: 85%;
+  margin-top: 2.5%;
+}
+
+.friendrequest {
+  height: 40%;
+}
+
+.birthday {
+  height: 40%;
+  margin-top: 10%;
+}
